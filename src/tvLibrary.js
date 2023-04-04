@@ -1,4 +1,4 @@
-import {db} from "./dbConnect";
+import {db} from "./dbConnect.js";
 
 export function addNewTv( req, res) {
   const newTv = req.body;

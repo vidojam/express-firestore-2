@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 
-import { addNewTv, getAllTv} from './src/tvLibray.js';
+import { addNewTv, getAllTv} from './src/tvLibrary.js'
 
 const PORT = 3000
 
@@ -14,7 +14,7 @@ app.post('/tvShows', addNewTv);
 
 
 app.listen(PORT, () => {
-  console.log(`Listening on http://localhost:${PORT}`)
+  console.log(`Listening on http://localhost:${PORT}...`)
 })
 
 
