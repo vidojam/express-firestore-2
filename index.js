@@ -9,8 +9,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.get('/tvShows', getAllTv);
-app.post('/tvShows', addNewTv);
+app.get('/tvshows', getAllTv);
+app.post('/tvshows', addNewTv);
 
 
 app.listen(PORT, () => {
